@@ -243,25 +243,7 @@ export const AI = createAI<AIState, UIState>({
       return uiState
     }
   },
-  unstable_onSetAIState: async ({ state, done }) => {
-    'use server'
 
-    const { chatId, messages } = state
-
-    const createdAt = new Date()
-    const path = `/chat/${chatId}`
-    const title = messages[0].content.substring(0, 100)
-
-    const chat: Chat = {
-      id: chatId,
-      title,
-      createdAt,
-      messages,
-      path
-    }
-
-    await saveChat(chat)
-  }
 })
 
 export const getUIStateFromAIState = (aiState: Chat) => {
