@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex flex-row justify-center items-center w-full gap-2 mt-8 bg-black">
             <Button className="w-3/5 rounded-2xl bg-[#00A7BE] px-4">
               <h2 className="text-center font-bold text-white text-lg">
-                Book A Consultation
+                Bookings
               </h2>
             </Button>
           </div>
@@ -52,11 +52,11 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex w-full bg-black mb-3">
+          <div className="flex w-full bg-black p-4">
             <Image src={quote} alt="" width={60} />
           </div>
           <div className="flex w-full justify-center bg-black m-4">
-            <h1 className="bg-gradient-to-r from-white to-[#002256] bg-clip-text text-center max-sm:text-2xl text-3xl font-bold text-transparent">
+            <h1 className="bg-gradient-to-r from-white to-[#002256] bg-clip-text text-center max-sm:text-2xl text-3xl font-bold text-transparent m-4">
               Click your AI assistant to get started!
             </h1>
           </div>

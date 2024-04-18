@@ -12,8 +12,8 @@ const Card = ({ title, color, gradient }) => {
     <motion.div
       className={`flex items-center justify-center h-25 w-20 border-0 ${gradient} ${color} p-4 to-[#16001A] rounded-xl`}
       style={{
-        height: '10rem',
-        width: '10rem'
+        height: '8rem',
+        width: '8rem'
       }} // Set the size of the card to 100px
       whileHover={{
         cursor: "pointer",
