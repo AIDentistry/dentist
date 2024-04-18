@@ -32,7 +32,7 @@ export default function Home() {
               
                 <Card
                   color="from-[#830098]"
-                  title="Dietician Assistant"
+                  title="Dietician"
                   gradient="bg-gradient-to-bl"
                 />
              
