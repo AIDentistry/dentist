@@ -43,7 +43,7 @@ export default function Home() {
           <Card
             colorfrom="from-[#A10091]"
             colorto="to-[#EE88FF]"
-            title=""
+            title="Our Services"
             gradient="bg-gradient-to-tr"
           />
           <Card
