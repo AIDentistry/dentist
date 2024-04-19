@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../../components/Card'
 import Image from 'next/image'
-import Bakhe_Dlamini from '../assets/Bakhe_Dlamini.png'
+import nicolette_mashile from "../assets/nicolette_mashile.png"
 import { Button } from '@/components/ui/button'
 import quote from "../assets/quote.svg"
 import Link from 'next/link'
@@ -10,7 +10,7 @@ export default function Home() {
     return (
       <div className="flex  xl:flex-row justify-center flex-col sm:w-3/5 w-full bg-black mt-10 mb-[10rem] gap-8">
         <div className="flex flex-col justify-center items-center h-[22rem] bg-black xl:size-1/2 w-full p-4 mt-4">
-          <Image src={Bakhe_Dlamini} alt="" width={300} />
+          <Image src={nicolette_mashile} alt="" width={300} className='rounded-2xl'/>
 
           <div className="flex flex-row justify-center items-center w-full gap-2 mt-8 bg-black">
             <Button className="w-3/5 rounded-2xl bg-[#00A7BE] px-4">
@@ -21,21 +21,19 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center bg-black xl:w-1/2 w-full gap-2 mt-[5rem]">
+        <div className="flex flex-col justify-center items-center bg-black xl:w-1/2 w-full gap-2 mt-[2rem]">
           <div className="flex flex-row justify-center items-center sm:w-full gap-2">
             <Card
               color="from-[#980089]"
-              title="Sex Coach (Ladies only)"
+              title="Car Finance Chat"
               gradient="bg-gradient-to-br"
             />
             <Link href="/chatbot">
-              
-                <Card
-                  color="from-[#830098]"
-                  title="Dietician"
-                  gradient="bg-gradient-to-bl"
-                />
-             
+              <Card
+                color="from-[#830098]"
+                title="Budget & Savings"
+                gradient="bg-gradient-to-bl"
+              />
             </Link>
           </div>
 
@@ -47,7 +45,7 @@ export default function Home() {
             />
             <Card
               color="from-[#501282]"
-              title="Marriage Health Test"
+              title="Rent vs Mortgage"
               gradient="bg-gradient-to-tl"
             />
           </div>
