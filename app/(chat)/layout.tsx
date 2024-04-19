@@ -54,7 +54,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <div className="flex flex-col min-h-screen w-auto">
             <Header />
-            <main className="flex flex-col justify-center items-center bg-black">
+            <main className="flex flex-col justify-center items-center bg-[#FDF9FF]">
               {children}
             </main>
           </div>

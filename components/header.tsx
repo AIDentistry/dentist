@@ -18,11 +18,8 @@ import { Session } from '@/lib/types'
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-0 flex items-center justify-center w-full h-16 px-4 shrink-0 bg-black">
-      <div className="flex items-center">
-
-      </div>
-
+    <header className="sticky top-0 z-0 flex items-center justify-center w-full h-16 px-4 shrink-0 bg-[#FDF9FF]">
+      <div className="flex items-center"></div>
     </header>
   )
 }

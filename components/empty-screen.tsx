@@ -22,12 +22,15 @@ const exampleMessages = [
 export function EmptyScreen() {
   return (
     <div className="mx-auto max-w-2xl px-4">
-      <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
-        <h1 className="text-lg font-semibold">
-          Hi, Welcome. I am your trusted Dietician Assistant
+      <div className="flex flex-col gap-2 rounded-lg border bg-[#FDF9FF] p-8">
+        <h1 className="text-lg font-semibold text-black">
+          Hi, Welcome. I am your Dentist AI Assistant
         </h1>
-        <p className="leading-normal text-muted-foreground">
-          This assistant is trained to be an expert dietician. It will assist you with your meal plans, meal preps, understanding your food and even help you design your work-outs. None of the advice given here replaces professional medical advice.
+        <p className="leading-normal text-muted-foreground text-black">
+          This assistant is trained to be an expert in dental symptos checking.
+          It will assist you with your oral hygiene routine, understanding
+          dental care, and even help you manage dental concerns. **None of the
+          advice given here replaces professional dental advice.**
         </p>
       </div>
     </div>
